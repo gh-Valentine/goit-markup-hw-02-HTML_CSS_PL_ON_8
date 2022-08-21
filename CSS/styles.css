@@ -3,13 +3,13 @@
     --secondary-color: #2196F3;
     --third-color: #757575;
     --fourth-color: #ffffff;
-    --main-font: 'Roboto', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
     --background: #2F303A;
 }
 
 body {
-    font-family: var(--main-font);
+    font-family: "Roboto", "Raleway", sans-serif;
     color: var(--main-color);
 }
 
@@ -27,7 +27,6 @@ body {
     /* identical to box height */
     letter-spacing: 0.03em;
     text-decoration: none;
-    cursor: pointer;
     color: #000000;
 }
 
@@ -39,7 +38,6 @@ body {
     /* identical to box height */
     letter-spacing: 0.03em;
     text-decoration: none;
-    cursor: pointer;
     color: var(--secondary-color);
 }
 
@@ -49,20 +47,18 @@ body {
     line-height: 1.143;
     letter-spacing: 0.02em;
     text-decoration: none;
-    cursor: pointer;
+    color: var(--main-color);
 }
 
 .header-mail-link,
 .header-phone-number-link {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.143;
     letter-spacing: 0.02em;
     color: var(--third-color);
     text-decoration: none;
-    cursor: pointer;
 }
 
 .navigation-list-link:hover,
@@ -123,7 +119,6 @@ body {
 }
 
 .advantages-list-item-description {
-    font-weight: 400;
     font-size: 14px;
     line-height: 2;
     /* or 171% */
@@ -169,7 +164,6 @@ body {
     }
 
 .team-box-list-item-occupation {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.1875;
     /* identical to box height */
@@ -225,7 +219,6 @@ body {
 }
 
 .category-portfolio-list-item-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
     /* identical to box height, or 188% */
@@ -252,32 +245,27 @@ body {
     /* identical to box height */
     letter-spacing: 0.03em;
     text-decoration: none;
-    cursor: pointer;
     color: var(--fourth-color);
 }
 
 .address-footer-list-maps-link {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     /* or 171% */
     letter-spacing: 0.03em;
     color: var(--fourth-color);
     text-decoration: none;
-    cursor: pointer;
-}
+    }
 
 .address-footer-list-mail-phone-link {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     /* or 171% */
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    cursor: pointer;
 }
 
 .address-footer-list-maps-link:hover,
